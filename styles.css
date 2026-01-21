@@ -1,0 +1,64 @@
+:root {
+    --color-primary: #ebd98f;
+    --color-secondary: #8e7b5c;
+    --color-accent: #7e655d;
+    --color-success: #292e3a;
+    --color-danger: #A48C84;
+    --color-white: #FFFFFF;
+}
+
+.primaryBg {
+    background-color: var(--color-primary);
+}
+
+.secondaryBg {
+    background-color: var(--color-secondary);
+}
+
+.accentBg {
+    background-color: var(--color-accent);
+}
+
+.successBg {
+    background-color: var(--color-success);
+}
+
+.dangerBg {
+    background-color: var(--color-danger);
+}
+
+
+
+.primaryText {
+    color: var(--color-primary);
+}
+
+.secondaryText {
+    color: var(--color-secondary);
+}
+
+.accentText {
+    color: var(--color-accent);
+}
+
+.successText {
+    color: var(--color-success);
+}
+
+.dangerText {
+    color: var(--color-danger);
+}
+
+.whiteText {
+    color: var(--color-white);
+}
+
+.bodyIndex {
+    
+    background: linear-gradient(90deg,var(--color-danger), color-mix(in srgb, var(--color-danger) 88%, #ffffff 12%));
+}
+
+.btn:hover{
+    background-color: var(--color-primary);
+}
+
