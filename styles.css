@@ -55,10 +55,45 @@
 
 .bodyIndex {
     
-    background: linear-gradient(90deg,var(--color-danger), color-mix(in srgb, var(--color-danger) 88%, #ffffff 12%));
+    background: linear-gradient(90deg,color-mix(in srgb, var(--color-danger) 60%, #000000 40%), color-mix(in srgb, var(--color-danger) 80%, #ffffff 20%));
 }
 
 .btn:hover{
     background-color: var(--color-primary);
 }
 
+
+.instagram-icon{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+.instagram-icon svg{
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: var(--color-primary);
+  
+}
+
+.instagram-icon:hover svg{
+    color:var(--color-success)
+}
+
+.blurBg{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+}
+
+.blurMoreBg{
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+}
